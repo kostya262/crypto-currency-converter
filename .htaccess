@@ -1,0 +1,5 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+RewriteCond %{REQUEST_URI} ^/api
+RewriteRule (.*) api/index.php [QSA,L]
+RewriteRule !index\.php$ webclient/index.php [L]

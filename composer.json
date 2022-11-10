@@ -1,0 +1,18 @@
+{
+    "name": "ksakharov/crypto-currency-converter",
+    "description": "Test description",
+    "autoload": {
+        "psr-4": {
+            "Ksakharov\\CryptoCurrencyConverter\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ksakharov",
+            "email": "kostya.saharoff262@yandex.ru"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
